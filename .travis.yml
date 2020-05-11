@@ -1,4 +1,4 @@
-dist: xenial
+language: java
 addons:
   sonarcloud:
     organization: tom-vanbraband-sonarsource

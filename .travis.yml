@@ -1,0 +1,10 @@
+language: java
+addons:
+  sonarcloud:
+    organization: "tom-vanbraband-sonarsource"
+    token:
+      secure: "**************************" # encrypted value of your token
+
+script:
+  - ./gradlew sonarqube
+secure: "AXf6L2E9IVPCv7nNBBRxGDRBj8WOMuOZCGRBCeQTuZf7exRuJz/kyqaT8R2MlrvGOoP9cVRMETTLSXQrTaAtmL0JF3H3Ea8ODSZTRat3Gs74qbixGJCGAL37hrJ48K4cZth8sewPssR9yraQ8ssGcM0CPfYbQECqHpY8g/51zLH2vfncsQPCs9jmT/tP2nI0ra4Vfr0BDl3vbvH33UsuEJsiPzKuQBINAZnM1iDkdOPtPs7LRoS+IMODloTluD5DsCFBvvqP98PFRHk6A8B7/IoXdPVW/JDZtrzP0FJeEl3UzxzR1hrPCD3Qi8l0pvhVEOmUMgUrwEjHs6QYBmx1YJiOnJZC38CbVE/2xU29UOTXisHHl7mj3Wx11RWz67G7buAxavsK5+RrP/PghVjyDrZ22lcq9ffPqmTKACx2HTLD+xu9BapGkXzrMaiN/ie3OnZgNw4iLqFwLHqdsuhf/IaGudihGrGR3Gc3yjib6Z5COot8IiI/WbdyBVv5jPziEQcBs5JWyG1F6YLr9aNlhOfucPij9Q7jNrk/RPmOmHikFdGMDHJWiPxMBmKqoIDuLU+yKkmpAGtuiwFzv8jHapZLBpUuGZ3htYsMomxPoPchuI61U8ooKxhCcFPaPf9on+F+JRcnZqZo5TAm+f1cmVbprZXAZqyk8YYKXVBihN8="

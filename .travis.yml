@@ -1,6 +1,5 @@
 language: java
 dist: xenial
-jdk: oraclejdk11
 addons:
   sonarcloud:
     organization: tom-vanbraband-sonarsource
